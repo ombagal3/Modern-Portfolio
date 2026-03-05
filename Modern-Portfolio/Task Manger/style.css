@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100%; 
+    background-color: rgb(74, 72, 72);
+}
+.nmm{
+  color: rgb(36, 230, 230);
+}
+.note-section{
+    overflow-y:scroll;
+    height: 70%;
+}
+.card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card-text {
+  opacity: 0.9;
+}
+
+/* Buttons style */
+.card .btn-success {
+  background: blue;
+  
+  border: none;
+}
+
+.card .btn-danger {
+  background: red;
+  border: none;
+}
